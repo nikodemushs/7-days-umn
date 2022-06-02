@@ -1,0 +1,34 @@
+.statsDiv {
+  width: 250px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: rgba(170, 255, 255, 0.573);
+  margin: 10px;
+}
+.stats {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.statsOuter {
+  height: 100%;
+  width: 90%;
+  background-color: aqua;
+  border-radius: 10px;
+  box-shadow: -8px 8px 12px -7px rgba(141, 141, 141, 0.96);
+  -webkit-box-shadow: -8px 8px 12px -7px rgba(141, 141, 141, 0.96);
+  -moz-box-shadow: -8px 8px 12px -7px rgba(141, 141, 141, 0.96);
+}
+.statsInner {
+  height: 100%;
+  background-color: azure;
+  border-radius: 10px;
+}
